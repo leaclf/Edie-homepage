@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edie Homepage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Heebo:wght@800&family=Poppins:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h3 class="logo">Edie</h3>
+            <span class="material-symbols-outlined" id="open">
+                menu
+            </span>
+            <nav id="nav" class="nav">
+                <div class="nav-wrapper">
+                    <span class="material-symbols-outlined" id="close">
+                        close
+                    </span>
+                    <ul class="nav__list">
+                        <li><a class="nav__link" href="#">Home</a></li>
+                        <li><a class="nav__link" href="#">Services</a></li>
+                        <li><a class="nav__link" href="#">Our Works</a></li>
+                        <li><a class="nav__link" href="#">Clients</a></li>
+                        <li><a class="nav__link" href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="hero-container">
+                <div class="hero__header">
+                    <p class="hero__query">Unhappy with your website?</p>
+                    <h2 class="hero__headline">We create beautiful and fast web services</h2>
+                </div>
+                <div class="hero">
+                    <img src="heroImage.jpg" alt="" class="hero__image">
+                </div>
+                <div class="hero__header">
+                    <h2 class="hero__headline bottom">
+                        Story, emotion and purpose
+                    </h2>
+                    <p class="hero__about">We help transform your ideas into real world applications that will
+                        outperform
+                        your
+                        toughest competition and help you achieve your strategic goals in short period of time.</p>
+                    <div class="form">
+                        <div>
+                            <label for="e-mail">Want us to contact you?</label>
+                        </div>
+                        <div class="form-button">
+                            <input type="email" name="mail" id="e-mail" placeholder="Email">
+                            <button class="btn">Join</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="service-card">
+                <h2 class="service-card-header">
+                    We offer high demand services
+                </h2>
+                <div class="card-container">
+                    <div class="card">
+                        <div class="card__icon">
+                            <span class="material-symbols-outlined icon edit">
+                                edit
+                            </span>
+                        </div>
+                        <h2 class="card__header">
+                            UI/UX Design
+                        </h2>
+                        <p class="card__body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac
+                            nulla consequat aliquet id quis turpis.</p>
+                        <button class="card__button"> Get started</button>
+                    </div>
+                    <div class="card hovered">
+                        <div class="card__icon">
+                            <span class="material-symbols-outlined icon codeb">
+                                code
+                            </span>
+                        </div>
+                        <h2 class="card__header">
+                            Front End
+                        </h2>
+                        <p class="card__body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac
+                            nulla consequat aliquet id quis turpis.</p>
+                        <button class="card__button button--blue"> Get started</button>
+                    </div>
+                    <div class="card">
+                        <div class="card__icon">
+                            <span class="material-symbols-outlined icon backend">
+                                data_table
+                            </span>
+                        </div>
+                        <h2 class="card__header">
+                            Back End
+                        </h2>
+                        <p class="card__body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis a metus ac
+                            nulla consequat aliquet id quis turpis.</p>
+                        <button class="card__button"> Get started</button>
+                    </div>
+                </div>
+            </div>
+            <div class="design-view">
+                <h2 class="design-header">Good design means good business</h2>
+                <div class="design-container">
+                    <div class="design">
+                        <img src="smarthome.jpg" alt="" class="design__image">
+                        <p class="design__description">Full stack application</p>
+                        <p class="design__type">Smart home dashboard</p>
+                    </div>
+                    <div class="design">
+                        <img src="onboard.png" alt="" class="design__image">
+                        <p class="design__description">UX/UI design</p>
+                        <p class="design__type">Onboard application</p>
+                    </div>
+                    <div class="design">
+                        <img src="booking.png" alt="" class="design__image">
+                        <p class="design__description">Mobile application</p>
+                        <p class="design__type">Booking system</p>
+                    </div>
+                    <div class="design">
+                        <img src="juice-product.png" alt="" class="design__image">
+                        <p class="design__description">Frontend application</p>
+                        <p class="design__type">Juice product homepage</p>
+                        <p class="more">See more <span class="material-symbols-outlined arrow">
+                                arrow_right_alt
+                            </span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="team">
+                <div class="team-about">
+                    <p class="team__name">Meet the team</p>
+                    <h3 class="team__message">We are chilled and a laidback team</h3>
+                    <p class="team__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias,
+                        excepturi!</p>
+                </div>
+                <div class="team-member">
+                    <div class="member-one">
+                        <img src="person3.png" alt="" class="team__image">
+                    </div>
+                    <div class="member-other">
+                        <div><img src="person1.png" alt="" class="team__image"></div>
+                        <div><img src="person2.png" alt="" class="team__image"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="quotes">
+                <h2 class="admin-message">“Fast and outstanding resutls. Edie understands their customer’s needs. They
+                    have
+                    a young and talented team.” </h2>
+                <div class="media">
+                    <img src="person4.png" alt="" class="media__image">
+                    <div class="media__body">
+                        <p class="media__name">Carlos Tran</p>
+                        <p class="media__title">The Decorative Gatsby</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <footer class="footer">
+        <div class="footer-container">
+            <nav class="footer-nav">
+                <ul class="footer-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Our Works</a></li>
+                    <li><a href="#">Clients</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="social">
+                <h3 class="social__name">Edie</h3>
+                <div>
+                    <img src="instagram.svg" alt="">
+                    <img src="linkedin.svg" alt="">
+                    <img src="twitter.svg" alt="">
+                </div>
+            </div>
+            <div class="form footer-form">
+                <div>
+                    <label for="e-mail">Want us to contact you?</label>
+                </div>
+                <div class="form-button">
+                    <input type="email" name="mail" id="e-mail" placeholder="Email">
+                    <button class="btn">Join</button>
+                </div>
+            </div>
+        </div>
+        <p class="credit">created by <span class="credit-name">leaclf </span>- devchallenges.io</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
