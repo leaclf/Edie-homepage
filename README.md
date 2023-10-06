@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://https://github.com/leaclf/Edie-homepage">
+    <a href="https://github.com/leaclf/Edie-homepage">
       Solution
     </a>
     <span> | </span>
